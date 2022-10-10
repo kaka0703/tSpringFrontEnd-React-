@@ -1,0 +1,4 @@
+export const PICKER_ENABLE_STATE = 'PICKER_ENABLE_STATE';
+export const COLOR_SELECT = 'COLOR_SELECT';
+export const CURRENT_COLOR = 'CURRENT_COLOR';
+export const CHANGE_SIDE = 'CHANGE_SIDE';

@@ -1,0 +1,27 @@
+@import "../../assets/styles/colors.scss";
+
+.auth-header {
+  border-bottom: 1px solid $header-border-gray;
+  padding: 10px 15px;
+
+  .create-btn {
+    padding: 7px 28px;
+    font-size: 12px;
+    background-color: $black;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $gray;
+    }
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .auth-header {
+    border-bottom: 0;
+  }
+}

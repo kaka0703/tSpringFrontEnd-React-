@@ -1,0 +1,36 @@
+@import "colors";
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $black;
+}
+
+* {
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+a {
+  color: $black;
+
+  &:hover {
+    color: $gray;
+  }
+}
+
+button:hover {
+  background-color: $gray;
+}

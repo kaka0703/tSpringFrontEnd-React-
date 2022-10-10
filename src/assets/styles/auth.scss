@@ -1,0 +1,140 @@
+@import "colors";
+
+.auth-container {
+  min-height: 100vh;
+  font-size: 12px;
+}
+
+.signup-hero {
+  flex-basis: 42vw;
+  background-image: url("../../assets/images/signup.jpg");
+  background-size: cover;
+}
+
+.auth-content {
+  max-width: 400px;
+}
+
+.auth-header {
+  .auth-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .auth-detail {
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.75;
+  }
+}
+
+.auth-form {
+  input {
+    padding: 11px 14px;
+    font-size: 12px;
+    transition: 0.3s;
+
+    &:focus {
+      box-shadow: none;
+      border-color: $black;
+    }
+  }
+
+  .red-input {
+    border-color: $red;
+  }
+
+  .red-text {
+    font-size: 13px;
+    color: $red;
+  }
+
+  .auth-btn {
+    padding: 12px 28px;
+    background-color: $black;
+
+    &:hover {
+      background-color: $gray;
+    }
+  }
+}
+
+.auth-or {
+  height: 1px;
+  margin-top: 30px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid $border-gray;
+
+  p {
+    width: 30px;
+    margin: auto;
+    margin-top: -12px;
+    font-size: 16px;
+    background-color: white;
+  }
+}
+
+.continue-text {
+  font-size: 16px;
+  margin-top: 28px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.login-content {
+  max-width: 1080px;
+}
+
+@media (min-width: 992px) {
+  .login-left {
+    border-right: 1px solid #b8bdc5;
+  }
+
+  .login-right::before {
+    content: "or";
+    position: absolute;
+    left: 50%;
+    margin-left: -7px;
+    padding: 8px 0;
+    background-color: white;
+  }
+}
+
+.social-btn {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px 28px;
+  border: 1px solid $border-gray;
+  font-weight: 600;
+  background-color: transparent;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $gray;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 28px;
+  }
+}
+
+.welcome-content {
+  max-width: 460px;
+}
+
+.welcome-title {
+  margin-bottom: 6px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.store-url {
+  margin-bottom: 32px;
+  font-size: 14px;
+}
